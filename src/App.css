@@ -1,38 +1,68 @@
 .App {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  gap: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerQuery {
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.inputContainerQuery {
+  display: flex;
+  gap: 15px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.selectQuery {
+  height: fit-content;
+  color: #fff;
+  background-color: rgb(113, 113, 229);
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(113, 113, 229);
+  color: #fff;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.nameQuery {
+  color: #fff;
+}
+
+.inputToDoList {
+  padding: 10px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.inputToDoList:focus {
+  border-bottom: 1px solid rgb(77, 77, 253);
+}
+
+.buttonQuery:hover {
+  background-color: rgb(122, 136, 247);
 }

@@ -1,0 +1,28 @@
+{
+  "goods": [
+    {
+      "name": "milk",
+      "id": 4
+    },
+    {
+      "name": "chocopie",
+      "id": 5
+    },
+    {
+      "name": "crips",
+      "id": 8
+    },
+    {
+      "name": "carrot",
+      "id": 9
+    },
+    {
+      "name": "apple",
+      "id": 10
+    },
+    {
+      "name": "eggs",
+      "id": 11
+    }
+  ]
+}
